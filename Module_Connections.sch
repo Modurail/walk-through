@@ -1,0 +1,609 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:NGM-Custom
+LIBS:2016 Walk-through Wiring-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 3 4
+Title "Walk-through Module Connections Overview"
+Date "2016-02-06"
+Rev "B2"
+Comp "North Georgia Modurail, Inc."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Anderson_M C?
+U 1 1 56B3AB3A
+P 3880 6090
+F 0 "C?" H 3880 5740 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 3880 5810 20  0000 C CNN
+F 2 "" H 3780 5980 10  0000 C CNN
+F 3 "" H 3780 5980 10  0000 C CNN
+	1    3880 6090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B3ABCD
+P 3290 4590
+F 0 "C?" H 3290 4240 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 3290 4870 20  0000 C CNN
+F 2 "" H 3190 4480 10  0000 C CNN
+F 3 "" H 3190 4480 10  0000 C CNN
+	1    3290 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B3ACC8
+P 7250 4590
+F 0 "C?" H 7250 4240 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 7250 4870 20  0000 C CNN
+F 2 "" H 7150 4480 10  0000 C CNN
+F 3 "" H 7150 4480 10  0000 C CNN
+	1    7250 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B3ADB1
+P 6690 6080
+F 0 "C?" H 6690 5730 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 6690 5800 20  0000 C CNN
+F 2 "" H 6590 5970 10  0000 C CNN
+F 3 "" H 6590 5970 10  0000 C CNN
+	1    6690 6080
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3650 6510 6940 6510
+Wire Notes Line
+	6940 6510 6940 4340
+Wire Notes Line
+	6940 4340 3630 4340
+Wire Notes Line
+	3630 4340 3630 6530
+Text Notes 5410 4740 0    100  ~ 20
+Lift\nSwitch
+$Comp
+L Relay K?
+U 1 1 56B3B8E3
+P 4740 5140
+F 0 "K?" H 4740 4790 20  0001 C CNN
+F 1 "Relay" H 4740 4840 20  0000 C CNN
+F 2 "" H 4640 5030 10  0000 C CNN
+F 3 "" H 4640 5030 10  0000 C CNN
+	1    4740 5140
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4130 5950 4570 5950
+Wire Bus Line
+	4570 5950 4570 5390
+Wire Bus Line
+	3540 4980 4490 4980
+Wire Bus Line
+	4130 6120 6440 6120
+Wire Wire Line
+	4440 4570 4440 4730
+Wire Wire Line
+	4440 4730 4710 4730
+Wire Wire Line
+	4710 4730 4710 4890
+Wire Wire Line
+	4780 4730 4780 4890
+$Comp
+L Anderson_J C?
+U 1 1 56B3C143
+P 3290 5090
+F 0 "C?" H 3290 4740 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 3290 4810 20  0000 C CNN
+F 2 "" H 3190 4980 10  0000 C CNN
+F 3 "" H 3190 4980 10  0000 C CNN
+	1    3290 5090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J C?
+U 1 1 56B3C1B2
+P 3380 6090
+F 0 "C?" H 3380 5740 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 3380 5810 20  0000 C CNN
+F 2 "" H 3280 5980 10  0000 C CNN
+F 3 "" H 3280 5980 10  0000 C CNN
+	1    3380 6090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J C?
+U 1 1 56B3C285
+P 7250 5090
+F 0 "C?" H 7250 4740 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 7250 4810 20  0000 C CNN
+F 2 "" H 7150 4980 10  0000 C CNN
+F 3 "" H 7150 4980 10  0000 C CNN
+	1    7250 5090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J C?
+U 1 1 56B3C2FE
+P 7190 6080
+F 0 "C?" H 7190 5730 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 7190 5800 20  0000 C CNN
+F 2 "" H 7090 5970 10  0000 C CNN
+F 3 "" H 7090 5970 10  0000 C CNN
+	1    7190 6080
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J C?
+U 1 1 56B3CE27
+P 1410 5090
+F 0 "C?" H 1410 4740 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 1250 4810 20  0000 C CNN
+F 2 "" H 1310 4980 10  0000 C CNN
+F 3 "" H 1310 4980 10  0000 C CNN
+	1    1410 5090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B891F3
+P 8150 4590
+F 0 "C?" H 8150 4240 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 8150 4870 20  0000 C CNN
+F 2 "" H 8050 4480 10  0000 C CNN
+F 3 "" H 8050 4480 10  0000 C CNN
+	1    8150 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8943A
+P 8810 4590
+F 0 "C?" H 8810 4240 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 8810 4870 20  0000 C CNN
+F 2 "" H 8710 4480 10  0000 C CNN
+F 3 "" H 8710 4480 10  0000 C CNN
+	1    8810 4590
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8480 4220 8480 4990
+Text Notes 8050 4210 0    60   ~ 0
+Insulated Rail Joiners
+$Comp
+L Anderson_J J?
+U 1 1 56B8A076
+P 8810 5090
+F 0 "J?" H 8810 4740 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 8960 4810 20  0000 C CNN
+F 2 "" H 8710 4980 10  0000 C CNN
+F 3 "" H 8710 4980 10  0000 C CNN
+	1    8810 5090
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7440 6080 8810 6080
+Wire Bus Line
+	8810 6080 8810 5340
+$Comp
+L Anderson_M C?
+U 1 1 56B8B13A
+P 2030 4590
+F 0 "C?" H 2030 4240 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 2030 4310 20  0000 C CNN
+F 2 "" H 1930 4480 10  0000 C CNN
+F 3 "" H 1930 4480 10  0000 C CNN
+	1    2030 4590
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8BCE7
+P 1410 4590
+F 0 "C?" H 1410 4240 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 1410 4870 20  0000 C CNN
+F 2 "" H 1310 4480 10  0000 C CNN
+F 3 "" H 1310 4480 10  0000 C CNN
+	1    1410 4590
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1720 4280 1720 4920
+Text Notes 1180 4260 0    60   ~ 0
+Insulated Rail Joiners
+Wire Bus Line
+	3130 6080 1410 6080
+Wire Bus Line
+	1410 6080 1410 5340
+Wire Bus Line
+	3040 4580 2280 4580
+Wire Bus Line
+	7500 4560 7900 4560
+Text Notes 4540 5370 0    60   ~ 0
+In
+Text Notes 4800 5370 0    60   ~ 0
+Out
+Text Notes 4510 5020 0    60   ~ 0
+Out
+Wire Bus Line
+	4890 5390 4890 5960
+Wire Bus Line
+	4890 5960 6280 5960
+Wire Bus Line
+	6280 5960 6280 5060
+Wire Bus Line
+	6280 5060 7000 5060
+$Comp
+L Anderson_M C?
+U 1 1 56B8F672
+P 3860 3020
+F 0 "C?" H 3860 2670 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 3860 2740 20  0000 C CNN
+F 2 "" H 3760 2910 10  0000 C CNN
+F 3 "" H 3760 2910 10  0000 C CNN
+	1    3860 3020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8F678
+P 3270 1520
+F 0 "C?" H 3270 1170 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 3270 1800 20  0000 C CNN
+F 2 "" H 3170 1410 10  0000 C CNN
+F 3 "" H 3170 1410 10  0000 C CNN
+	1    3270 1520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8F67E
+P 7230 1520
+F 0 "C?" H 7230 1170 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 7230 1800 20  0000 C CNN
+F 2 "" H 7130 1410 10  0000 C CNN
+F 3 "" H 7130 1410 10  0000 C CNN
+	1    7230 1520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8F684
+P 6670 3010
+F 0 "C?" H 6670 2660 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 6670 2730 20  0000 C CNN
+F 2 "" H 6570 2900 10  0000 C CNN
+F 3 "" H 6570 2900 10  0000 C CNN
+	1    6670 3010
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3630 3440 6920 3440
+Wire Notes Line
+	6920 3440 6920 1270
+Wire Notes Line
+	6920 1270 3610 1270
+Wire Notes Line
+	3610 1270 3610 3460
+Text Notes 5130 1640 0    100  ~ 20
+Lift\nSwitch
+$Comp
+L Relay K?
+U 1 1 56B8F68F
+P 4720 2070
+F 0 "K?" H 4720 1720 20  0001 C CNN
+F 1 "Relay" H 4720 1770 20  0000 C CNN
+F 2 "" H 4620 1960 10  0000 C CNN
+F 3 "" H 4620 1960 10  0000 C CNN
+	1    4720 2070
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4110 2880 4550 2880
+Wire Bus Line
+	4550 2880 4550 2320
+Wire Bus Line
+	4110 3050 6420 3050
+Wire Wire Line
+	4420 1660 4690 1660
+Wire Wire Line
+	4690 1660 4690 1820
+Wire Wire Line
+	4760 1660 4760 1820
+$Comp
+L Anderson_J C?
+U 1 1 56B8F6AB
+P 3360 3020
+F 0 "C?" H 3360 2670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 3360 2740 20  0000 C CNN
+F 2 "" H 3260 2910 10  0000 C CNN
+F 3 "" H 3260 2910 10  0000 C CNN
+	1    3360 3020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J C?
+U 1 1 56B8F6B1
+P 7230 2020
+F 0 "C?" H 7230 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 7400 1740 20  0000 C CNN
+F 2 "" H 7130 1910 10  0000 C CNN
+F 3 "" H 7130 1910 10  0000 C CNN
+	1    7230 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J C?
+U 1 1 56B8F6B7
+P 7170 3010
+F 0 "C?" H 7170 2660 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 7170 2730 20  0000 C CNN
+F 2 "" H 7070 2900 10  0000 C CNN
+F 3 "" H 7070 2900 10  0000 C CNN
+	1    7170 3010
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J C?
+U 1 1 56B8F6BD
+P 3270 2020
+F 0 "C?" H 3270 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 3090 1740 20  0000 C CNN
+F 2 "" H 3170 1910 10  0000 C CNN
+F 3 "" H 3170 1910 10  0000 C CNN
+	1    3270 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8F6C3
+P 8130 1520
+F 0 "C?" H 8130 1170 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 8130 1800 20  0000 C CNN
+F 2 "" H 8030 1410 10  0000 C CNN
+F 3 "" H 8030 1410 10  0000 C CNN
+	1    8130 1520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8F6C9
+P 8790 1520
+F 0 "C?" H 8790 1170 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 8790 1800 20  0000 C CNN
+F 2 "" H 8690 1410 10  0000 C CNN
+F 3 "" H 8690 1410 10  0000 C CNN
+	1    8790 1520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J J?
+U 1 1 56B8F6D1
+P 8790 2020
+F 0 "J?" H 8790 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 8950 1740 20  0000 C CNN
+F 2 "" H 8690 1910 10  0000 C CNN
+F 3 "" H 8690 1910 10  0000 C CNN
+	1    8790 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8F6D9
+P 2010 1520
+F 0 "C?" H 2010 1170 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 2010 1800 20  0000 C CNN
+F 2 "" H 1910 1410 10  0000 C CNN
+F 3 "" H 1910 1410 10  0000 C CNN
+	1    2010 1520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_M C?
+U 1 1 56B8F6DF
+P 1390 1520
+F 0 "C?" H 1390 1170 20  0001 C CNN
+F 1 "CONN_AND-9P-M" H 1390 1800 20  0000 C CNN
+F 2 "" H 1290 1410 10  0000 C CNN
+F 3 "" H 1290 1410 10  0000 C CNN
+	1    1390 1520
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	3020 1510 2260 1510
+Wire Bus Line
+	7480 1490 7880 1490
+Text Notes 4520 2300 0    60   ~ 0
+In
+Text Notes 4780 2300 0    60   ~ 0
+Out
+Text Notes 4490 1950 0    60   ~ 0
+Out
+Wire Bus Line
+	4870 2890 6260 2890
+Wire Bus Line
+	4870 2320 4870 2890
+$Comp
+L Anderson_J C?
+U 1 1 56B8F6A5
+P 3860 2020
+F 0 "C?" H 3860 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 3860 1740 20  0000 C CNN
+F 2 "" H 3760 1910 10  0000 C CNN
+F 3 "" H 3760 1910 10  0000 C CNN
+	1    3860 2020
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4470 1900 4110 1900
+Wire Bus Line
+	3110 3040 2980 3040
+Wire Bus Line
+	2980 3040 2980 2560
+Wire Bus Line
+	2980 2560 3270 2560
+Wire Bus Line
+	3270 2560 3270 2270
+$Comp
+L Anderson_J J?
+U 1 1 56B90D98
+P 2010 2020
+F 0 "J?" H 2010 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 2160 1740 20  0000 C CNN
+F 2 "" H 1910 1910 10  0000 C CNN
+F 3 "" H 1910 1910 10  0000 C CNN
+	1    2010 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_J J?
+U 1 1 56B910B7
+P 1390 2020
+F 0 "J?" H 1390 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 1230 1740 20  0000 C CNN
+F 2 "" H 1290 1910 10  0000 C CNN
+F 3 "" H 1290 1910 10  0000 C CNN
+	1    1390 2020
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1380 2270 1380 2500
+Wire Bus Line
+	1380 2500 2010 2500
+Wire Bus Line
+	2010 2500 2010 2270
+Text Notes 3660 1710 0    60   ~ 0
+Not Connected
+Text Notes 6190 1720 0    60   ~ 0
+Not Connected
+$Comp
+L Anderson_J J?
+U 1 1 56B92A6F
+P 6670 2020
+F 0 "J?" H 6670 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 6670 1740 20  0000 C CNN
+F 2 "" H 6570 1910 10  0000 C CNN
+F 3 "" H 6570 1910 10  0000 C CNN
+	1    6670 2020
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	6260 2890 6260 2020
+Wire Bus Line
+	6260 2020 6420 2020
+Wire Bus Line
+	7420 3040 7570 3040
+Wire Bus Line
+	7570 3040 7570 2520
+Wire Bus Line
+	7570 2520 7220 2520
+Wire Bus Line
+	7220 2520 7220 2270
+$Comp
+L Anderson_J J?
+U 1 1 56B93D14
+P 8130 2020
+F 0 "J?" H 8130 1670 20  0001 C CNN
+F 1 "CONN_AND-9P-J" H 7960 1740 20  0000 C CNN
+F 2 "" H 8030 1910 10  0000 C CNN
+F 3 "" H 8030 1910 10  0000 C CNN
+	1    8130 2020
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	8120 2270 8120 2490
+Wire Bus Line
+	8120 2490 8800 2490
+Wire Bus Line
+	8800 2490 8800 2270
+Text Notes 4170 1050 0    100  ~ 20
+Track Power Not Cut Off Mode
+Text Notes 4340 4150 0    100  ~ 20
+Track Power Cut Off Mode
+Wire Notes Line
+	470  3750 10530 3750
+NoConn ~ 3570 1980
+NoConn ~ 3570 1820
+NoConn ~ 3570 2200
+NoConn ~ 6950 1840
+NoConn ~ 6950 1980
+NoConn ~ 6950 2130
+NoConn ~ 1720 4440
+NoConn ~ 1720 4590
+NoConn ~ 1720 4730
+NoConn ~ 8480 4430
+NoConn ~ 8480 4570
+NoConn ~ 8480 4710
+Text Notes 1730 6040 0    60   ~ 0
+Bypass Adjacent Module
+Text Notes 7600 6050 0    60   ~ 0
+Bypass Adjacent Module
+$Comp
+L SPST-NO SW1
+U 1 1 56BE7E46
+P 4840 4570
+F 0 "SW1" H 4910 4680 50  0001 L CNN
+F 1 "SPST-NO" H 5080 4730 50  0000 C CNN
+F 2 "" H 4840 4570 50  0000 C CNN
+F 3 "" H 4840 4570 50  0000 C CNN
+	1    4840 4570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4780 4730 5240 4730
+Wire Wire Line
+	5240 4730 5240 4570
+$Comp
+L SW_PUSH_NO SW1
+U 1 1 56BEC6F8
+P 4720 1430
+F 0 "SW1" H 4730 1240 50  0001 C CNN
+F 1 "SW_PUSH_NO" H 4730 1310 50  0000 C CNN
+F 2 "" H 4720 1430 50  0000 C CNN
+F 3 "" H 4720 1430 50  0000 C CNN
+	1    4720 1430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4420 1660 4420 1430
+Wire Wire Line
+	5020 1430 5020 1660
+Wire Wire Line
+	5020 1660 4760 1660
+$EndSCHEMATC
