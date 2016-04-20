@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="2016 Walk-through Wiring.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4258"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4260" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.3622 : 372.04724 : 1"
+       inkscape:persp3d-origin="526.1811 : 248.03149 : 1"
+       id="perspective4150" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4712217"
+     inkscape:cx="232.82314"
+     inkscape:cy="327.73226"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26772)">
+    <rect
+       style="fill:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       id="rect4166"
+       width="58.588844"
+       height="80.812187"
+       x="48.487324"
+       y="831.13879" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22702982;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4266"
+       width="67.143028"
+       height="113.61005"
+       x="58.352371"
+       y="378.354" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22702982;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4266-8"
+       width="67.143028"
+       height="113.61005"
+       x="57.342209"
+       y="859.18658" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22702982;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4266-8-5"
+       width="67.143028"
+       height="113.61005"
+       x="926.07343"
+       y="859.18658" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22702982;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4266-8-0"
+       width="67.143028"
+       height="113.61005"
+       x="924.0531"
+       y="374.31335" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.998739px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.48524,915.99161 799.56788,0"
+       id="path4308"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316"
+       cx="142.98611"
+       cy="597.34235"
+       r="3.5218253" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316-0"
+       cx="142.9861"
+       cy="605.38043"
+       r="3.5218253" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316-5"
+       cx="142.98611"
+       cy="613.37701"
+       r="3.5218253" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316-0-5"
+       cx="142.9861"
+       cy="621.4151"
+       r="3.5218253" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316-59"
+       cx="142.98611"
+       cy="629.39099"
+       r="3.5218253" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316-0-9"
+       cx="142.9861"
+       cy="637.42908"
+       r="3.5218253" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316-5-7"
+       cx="142.98611"
+       cy="645.42566"
+       r="3.5218253" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4316-0-5-5"
+       cx="142.9861"
+       cy="653.46375"
+       r="3.5218253" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.69999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4375"
+       width="11.535014"
+       height="66.326332"
+       x="137.2186"
+       y="592.4035" />
+  </g>
+</svg>

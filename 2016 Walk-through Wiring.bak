@@ -391,7 +391,7 @@ Text Label 970  5340 0    60   ~ 0
 5P-14AWG
 Text Label 1620 2900 0    60   ~ 0
 6P-20AWG
-Text Label 2980 3580 1    60   ~ 0
+Text Label 2780 3360 1    60   ~ 0
 Black
 Text Label 3080 3500 1    60   ~ 0
 Brown
@@ -473,7 +473,7 @@ Text Label 8630 4210 0    60   ~ 0
 White
 Text Label 8690 4310 0    60   ~ 0
 Black
-Text Label 980  4220 1    60   ~ 0
+Text Label 1070 3420 1    60   ~ 0
 8P-14AWG
 Entry Wire Line
 	870  5440 970  5340
@@ -602,9 +602,9 @@ Wire Notes Line
 Wire Notes Line
 	6600 6550 2100 6550
 Wire Notes Line
-	2100 6550 2100 7800
+	2100 7800 2100 6550
 Wire Notes Line
-	2100 7800 500  7800
+	500  7800 2100 7800
 Wire Notes Line
 	590  550  6600 550 
 Wire Notes Line
@@ -709,15 +709,15 @@ Entry Wire Line
 	980  3880 1080 3980
 Entry Wire Line
 	980  3480 1080 3580
-Text Label 1080 3580 0    60   ~ 0
+Text Label 1080 3880 0    60   ~ 0
 Black
-Text Label 1130 3680 0    60   ~ 0
+Text Label 1080 3580 0    60   ~ 0
 Brown
-Text Label 1180 3780 0    60   ~ 0
+Text Label 1120 3680 0    60   ~ 0
 Yellow
-Text Label 1220 3880 0    60   ~ 0
+Text Label 1160 3780 0    60   ~ 0
 Green
-Text Label 1080 3980 0    60   ~ 0
+Text Label 1120 3980 0    60   ~ 0
 White
 Wire Bus Line
 	620  4450 980  4450
@@ -794,11 +794,16 @@ Entry Wire Line
 Wire Wire Line
 	1080 3880 2220 3880
 Wire Wire Line
-	1960 3000 1960 3880
+	1960 3000 1960 3780
+Connection ~ 1960 3780
 Wire Wire Line
-	2060 3000 2060 3780
+	2060 3000 2060 3680
+Connection ~ 2060 3680
 Wire Wire Line
-	2160 3000 2160 3680
+	2160 3000 2160 3580
+Connection ~ 2160 3580
+Wire Wire Line
+	2780 1060 3230 1060
 Wire Wire Line
 	2220 4280 2200 4280
 Wire Wire Line
@@ -814,6 +819,9 @@ Wire Wire Line
 Wire Wire Line
 	1900 3980 1900 5240
 Connection ~ 1900 3980
+Wire Wire Line
+	1800 5240 1800 3880
+Connection ~ 1800 3880
 Entry Wire Line
 	1700 5340 1800 5240
 Entry Wire Line
@@ -869,17 +877,34 @@ Wire Wire Line
 Wire Bus Line
 	10390 4470 9600 4470
 Wire Wire Line
+	2720 3880 2780 3880
+Wire Wire Line
+	2780 3880 2780 1060
+Connection ~ 2880 3780
+Wire Wire Line
+	2880 5730 2880 3780
+Wire Wire Line
+	2980 3680 2980 5730
+Connection ~ 2980 3680
+Wire Wire Line
 	3080 2710 3080 5730
+Connection ~ 3080 3580
+Wire Wire Line
+	3080 3580 2720 3580
 Wire Wire Line
 	3080 2710 3550 2710
 Wire Wire Line
 	3550 2810 3180 2810
 Wire Wire Line
-	3180 2810 3180 3780
+	3180 2810 3180 3680
+Wire Wire Line
+	3180 3680 2720 3680
 Wire Wire Line
 	3550 2910 3280 2910
 Wire Wire Line
-	3280 2910 3280 3880
+	3280 2910 3280 3780
+Wire Wire Line
+	3280 3780 2720 3780
 Wire Wire Line
 	1820 6300 1870 6300
 Wire Wire Line
@@ -906,29 +931,4 @@ Wire Notes Line
 	580  550  500  550 
 Wire Notes Line
 	500  550  500  7800
-Connection ~ 2160 3680
-Connection ~ 2060 3780
-Connection ~ 1960 3880
-Wire Wire Line
-	1800 5240 1800 3580
-Connection ~ 1800 3580
-Wire Wire Line
-	3280 3880 2720 3880
-Wire Wire Line
-	3180 3780 2720 3780
-Wire Wire Line
-	2720 3680 3080 3680
-Connection ~ 3080 3680
-Wire Wire Line
-	2980 5730 2980 3780
-Connection ~ 2980 3780
-Wire Wire Line
-	2880 5730 2880 3880
-Connection ~ 2880 3880
-Wire Wire Line
-	2720 3580 2980 3580
-Wire Wire Line
-	2980 3580 2980 1060
-Wire Wire Line
-	2980 1060 3230 1060
 $EndSCHEMATC
